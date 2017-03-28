@@ -5,6 +5,7 @@ deb http://mirrors.aliyun.com/debian/ jessie-proposed-updates main non-free cont
 deb-src http://mirrors.aliyun.com/debian/ jessie main non-free contrib\n\
 deb-src http://mirrors.aliyun.com/debian/ jessie-proposed-updates main non-free contrib'  > /etc/apt/sources.list
 
+
 RUN apt-get update && apt-get install -y \
 	bzip2 \
 	libcurl4-openssl-dev \
