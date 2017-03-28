@@ -49,10 +49,8 @@
 1. [安装Docker](https://segmentfault.com/a/1190000002485231)
 2. 使用网易提供的[Docker镜像](https://c.163.com/wiki/index.php?title=DockerHub%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F)或者阿里云提供的[Docker镜像](https://yq.aliyun.com/articles/29941)
 3. 执行以下命令:
- 	docker pull xapanyun/panyundoc  
+    docker pull xapanyun/panyundoc  
 	docker run -d -P xapanyun/panyundoc
-
-4. 查看当前发布出去的端口
+4. [查看](http://onip5x25o.bkt.clouddn.com/panyun1.png)当前发布出去的端口
 	docker ps
-
 5. 现在可以根据查看到的端口通过浏览器访问了

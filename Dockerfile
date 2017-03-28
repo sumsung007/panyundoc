@@ -1,10 +1,5 @@
 FROM php:5.6-apache
 
-RUN echo 'deb http://mirrors.aliyun.com/debian/ jessie main non-free contrib\n\
-deb http://mirrors.aliyun.com/debian/ jessie-proposed-updates main non-free contrib\n\
-deb-src http://mirrors.aliyun.com/debian/ jessie main non-free contrib\n\
-deb-src http://mirrors.aliyun.com/debian/ jessie-proposed-updates main non-free contrib'  > /etc/apt/sources.list
-
 
 RUN apt-get update && apt-get install -y \
 	bzip2 \
