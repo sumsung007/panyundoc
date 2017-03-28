@@ -1,9 +1,11 @@
 #盘云文档管理系统-个人版
+
 盘云文档管理系统是在owncloud的基础上优化修改而来，完全开源免费（解压free_pineconecloud.tar.gz）即得完整代码。
 
 更多内容见[官网](http://www.panyun.io/)
 
 ##相比原版owncloud的优势
+
 * 经过各种中文环境测试
 * 中文文档（目前还在进一步完善中）
 * Bug修正更及时
