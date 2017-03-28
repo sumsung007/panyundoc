@@ -55,7 +55,6 @@ COPY docker-entrypoint.sh /entrypoint.sh
 COPY htaccess /usr/src/htaccess
 RUN chmod a+x /entrypoint.sh
 
-
 ENV OWNCLOUD_VERSION 9.0
 VOLUME /var/www/html
 
